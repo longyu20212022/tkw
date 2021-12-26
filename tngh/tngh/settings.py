@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'tngh.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql-parallel-92590',
+        'NAME':  'postgresql-parallel-92590/ttydf',
+        'pass':'poiuytre1234!@'
+        'host':'ec2-54-144-165-97.compute-1.amazonaws.com',
+        'user':'tvswggackrdayo',
     }
 }
 
